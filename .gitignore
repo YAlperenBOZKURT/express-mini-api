@@ -1,0 +1,36 @@
+# node_modules - bağımlılık klasörü
+node_modules/
+
+# ortam değişkenleri
+.env
+.env.*.local
+
+# log dosyaları
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# test coverage
+coverage/
+
+# derlenmiş dosyalar (opsiyonel)
+dist/
+build/
+
+# editor klasörleri
+.vscode/
+.idea/
+*.swp
+
+# temp dosyalar
+tmp/
+temp/
+
+# macOS özel dosyalar
+*.DS_Store
